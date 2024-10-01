@@ -12,10 +12,16 @@ body div {
     height: 100vh;
 }
 
+#main-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+
 #logo-sidebar {
     background-image: url(images/brigitte-tohm-Ko-boPSpCe0-unsplash.jpg);
     background-color: orange;
-    width: 30%;
+    width: 33%;
 }
 
 #logo-sidebar h1{
@@ -33,17 +39,18 @@ body div {
 #logo-sidebar div {
     background-color: black;
     height: auto;
+    min-width: 80%;
     margin-top: 40%;
     text-align: center;
     opacity: 75%;
     padding: 15px 0;
 }
 
-#logo-sidebar p {
+#credits {
     background-color: black;
     opacity: 75%;
     color: white;
-    margin-top: 85%;
+    margin-top: 100%;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -52,4 +59,62 @@ body div {
 #logo-sidebar a {
     color: orange;
     text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    gap: 65px;
+    width: 50%;
+}
+
+#main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e3d7d9;
+}
+
+#main-content p, form {
+    max-width: 60%;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 40px;
+    background-color: orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#form-container {
+    background-color: white;
+    height: 30vh;
+    padding-bottom: 100px;
+}
+
+label, input {
+    display: block;
+}
+
+header {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+#register-container {
+    padding-bottom: 3%;
+}
+
+input {
+    min-width: 240px;;
+}
+
+span {
+    color: orange;
 }

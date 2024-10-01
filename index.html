@@ -12,12 +12,31 @@
             <img src="images/odin-lined.png" alt="Odin Project Logo">
             <h1>ODIN</h1>
         </div>
-        <p>Photo by <a href="https://unsplash.com/@brigittetohm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brigitte Tohm</a> on <a href="https://unsplash.com/photos/a-cup-of-coffee-and-a-cell-phone-on-a-table-Ko-boPSpCe0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+        <p id="credits">Photo by <a href="https://unsplash.com/@brigittetohm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brigitte Tohm</a> on <a href="https://unsplash.com/photos/a-cup-of-coffee-and-a-cell-phone-on-a-table-Ko-boPSpCe0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
     </div>
 
     <div id="main-content">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
-        <p>You know you want to</p>
+        <header>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </header>
+        
+        <div id="form-container">
+            <p>Let's do this!</p>
+            <form action="">
+                <label for="first-name">First Name<input type="text" id="first-name" name="firstName"></label>
+                <label for="last-name">Last Name<input type="text" id="last-name" name="lastName"></label>
+                <label for="email">Email<input type="email" id="email" name="email"></label>
+                <label for="phone">Phone Number<input type="tel" id="phone" name="phone"></label>
+                <label for="password">Password<input type="password" id="password" name="password"></label>
+                <label for="confirm-password">Confirm Password<input type="password" id="confirm-password" name="confirmPassword"></label>
+            </form>
+        </div>
+
+        <div id="register-container">
+            <button>Create Account</button>
+            <p>Already have an account? <span>Log in</span></p>
+        </div>
     </div>
 </body>
 </html>
