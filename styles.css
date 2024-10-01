@@ -1,0 +1,55 @@
+@font-face{
+    font-family: Norse Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    display: flex;
+}
+
+body div {
+    height: 100vh;
+}
+
+#logo-sidebar {
+    background-image: url(images/brigitte-tohm-Ko-boPSpCe0-unsplash.jpg);
+    background-color: orange;
+    width: 30%;
+}
+
+#logo-sidebar h1{
+    font-size: 8rem;
+    display: inline;
+    vertical-align: top;
+    color: white;
+    font-family: "Norse Bold", Arial, Helvetica, sans-serif;
+}
+
+#logo-sidebar img{
+    height: 8rem;
+}
+
+#logo-sidebar div {
+    background-color: black;
+    height: auto;
+    margin-top: 40%;
+    text-align: center;
+    opacity: 75%;
+    padding: 15px 0;
+}
+
+#logo-sidebar p {
+    background-color: black;
+    opacity: 75%;
+    color: white;
+    margin-top: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#logo-sidebar a {
+    color: orange;
+    text-decoration: none;
+}
